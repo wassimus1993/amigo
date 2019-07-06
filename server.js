@@ -14,7 +14,7 @@ mongoose
 .catch(err => console.log(err));
 
 app.get('/',(req, res) => res.json({
-    msg: "Hello You!!"
+    msg: "Hello You!"
 }));
 
 app.post('/users', (req, res) => {
